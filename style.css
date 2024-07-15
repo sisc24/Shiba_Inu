@@ -94,8 +94,23 @@ h1{
 .paw-image{
     width: 15vw;
     margin: 20px;
+    animation-name: s4a3;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
 }
 
+@keyframes s4a3 {
+    0%{
+        transform: translateY(10px);
+      }
+    50% {
+        transform: translateY(-10px);
+      }
+    100%{
+        transform: translateY(10px);
+    }
+  }
 .images-center{
     display: flex;
     justify-content: center;
