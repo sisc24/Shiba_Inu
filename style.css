@@ -135,6 +135,43 @@ footer a{
 /**/
 
 @media only screen and (min-width: 600px){
+    
+    .images1, .images2, .images3, .images4, .images5{
+        width: 40vw;
+    }
+
+    .paw-image{
+        width: 10vw;
+    }
+    .images-container{
+        display: grid;
+        grid-template-columns: 200px, 200px;
+        grid-template-rows: 200px, 200px, 200px;
+    }
+
+    .images1{
+        grid-row: 1 / 1;
+        grid-column: 1 / 1;
+    }
+    .images2{
+        grid-row: 1 / 1;
+        grid-column: 2 / 2;
+    }
+    .images3{
+        grid-row: 2 / 2;
+        grid-column: 1 / 1;
+    }
+    .images4{
+        grid-row: 2 / 2;
+        grid-column: 2 / 2;
+    }    
+    .images5{
+        grid-row: 3 / 3;
+        grid-column: 1 / 1;
+    }
+}
+
+@media only screen and (min-width: 810px){
     .header_link{
         display: flex;
     }
