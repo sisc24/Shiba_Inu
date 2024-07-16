@@ -134,7 +134,7 @@ footer a{
 
 /**/
 
-@media only screen and (min-width: 810px){
+@media only screen and (min-width: 600px){
     .header_link{
         display: flex;
     }
